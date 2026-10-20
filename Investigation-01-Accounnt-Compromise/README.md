@@ -146,13 +146,13 @@ The following screenshots were captured from the simulated SOC investigation and
 
 ### Evidence 1: Alert Summary
 
-![Alert summary](evidence/01-alert-summary.png)
+![Alert summary](evidence./01-alert-summary.png)
 
 ### Evidence 2: Authentication Activity
 
-![Authentication evidence](evidence/02-authentication-evidence.png)
+![Authentication evidence](evidence./02-authentication-evidence.png)
 
 ### Evidence 3: Malicious Mailbox Forwarding Rule
 
-![Malicious forwarding rule](evidence/03-malicious-forwarding-rule.png)
+![Malicious forwarding rule](evidence./03-malicious-forwarding-rule.png)
 
