@@ -19,9 +19,16 @@ My goal is to develop the practical skills required to investigate security even
 
 ## Investigations and Projects
 
-Investigation case studies will be organized in separate folders within this repository. Each case study will document the scenario, available evidence, investigative process, findings, conclusions, and recommended next steps.
+### Investigation 01: Suspected Account Compromise and Malicious Email Forwarding
 
-*Investigation folders will be added as projects are documented.*
+- **Type:** Identity security and incident investigation
+- **Severity:** High (as assigned by the simulated lab)
+- **Key skills:** Alert triage, authentication analysis, mailbox-rule investigation, incident-response recommendations, and evidence-based reporting
+- **Environment:** Axis Security SOC Lab — simulated investigation
+
+[Read Investigation 01](Investigation-01-Account-Compromise/README.md)
+
+Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
 
