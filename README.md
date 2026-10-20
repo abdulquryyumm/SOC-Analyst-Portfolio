@@ -26,8 +26,7 @@ My goal is to develop the practical skills required to investigate security even
 - **Key skills:** Alert triage, authentication analysis, mailbox-rule investigation, incident-response recommendations, and evidence-based reporting
 - **Environment:** Axis Security SOC Lab — simulated investigation
 
-[Read Investigation 01](./Investigation-01-Account-Compromise/README.md)
-
+[Read Investigation 01](./Investigation-01-Accounnt-Compromise/README.md)
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
