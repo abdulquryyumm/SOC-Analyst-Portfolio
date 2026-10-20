@@ -140,3 +140,19 @@ The lab evidence supported escalation of a suspected account compromise involvin
 
 This case study demonstrates a structured, evidence-based approach to SOC alert triage and incident investigation.
 
+## 11. Supporting Evidence
+
+The following screenshots were captured from the simulated SOC investigation and support the findings documented above.
+
+### Evidence 1: Alert Summary
+
+![Alert summary](evidence/01-alert-summary.png)
+
+### Evidence 2: Authentication Activity
+
+![Authentication evidence](evidence/02-authentication-evidence.png)
+
+### Evidence 3: Malicious Mailbox Forwarding Rule
+
+![Malicious forwarding rule](evidence/03-malicious-forwarding-rule.png)
+
