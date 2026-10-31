@@ -176,15 +176,3 @@ This is a reasoned assessment based on the available telemetry and user confirma
 7. When supporting evidence is unavailable, document the limitation rather than inventing a conclusion.
 8. User context can help distinguish expected activity from suspicious activity, but it should be considered alongside technical evidence.
 
-## 13. Suggested evidence to attach
-
-Add screenshots or exported records from the lab, where available:
-
-- Windows Agent `ossec.conf` showing the Security event-channel collection block.
-- Windows Event Viewer showing the Event ID `4625` record.
-- Wazuh Dashboard showing the Event ID `4625` alert and its relevant fields.
-- Wazuh Dashboard showing the Event ID `4624` alert and its relevant fields.
-- The search showing one Event ID `4625` result for `Ayoola` in the reviewed scope.
-- The Event ID `4688` search result or filter showing that no matching New Process ID was found in the searched date range.
-
-**Handling note:** Redact personal account names, SIDs, host identifiers, internal addresses, and other identifying details before making screenshots or records public. Use only evidence you are comfortable publishing.
