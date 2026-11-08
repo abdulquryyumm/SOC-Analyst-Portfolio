@@ -37,6 +37,14 @@ My goal is to develop the practical skills required to investigate security even
 
 [Read Investigation 02](Investigation-02-Windows-Failed-Logon-Correlation/README.md)
 
+### Investigation 03: Windows Authentication Analysis
+
+**Focus:** Windows Security Log Analysis | Event IDs 4624 and 4625
+
+A practical investigation using Windows Event Viewer to examine successful and failed authentication activities, interpret login events, and assess whether observed behaviour indicates legitimate user activity or potential security concerns.
+
+[View Investigation 03](./Investigation-03-Windows-Authentication-Analysis/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
