@@ -28,7 +28,7 @@ My goal is to develop the practical skills required to investigate security even
 
 [Read Investigation 01](./Investigation-01-Accounnt-Compromise/README.md)
 
-**Investigation 02: Windows Failed Logon Correlation and Custom Brute-Force Detection Using Wazuh**
+### Investigation 02: Windows Failed Logon Correlation and Custom Brute-Force Detection Using Wazuh
 
 - **Type:** Windows authentication monitoring and detection engineering
 - **Detection:** Five failed logon attempts against the same account within 60 seconds
