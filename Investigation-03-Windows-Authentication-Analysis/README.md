@@ -84,15 +84,27 @@ The observed activity was therefore assessed as likely normal user authenticatio
 
 ## 7. Evidence Collected
 
-The following screenshots were collected during the investigation:
+The following screenshots were collected during the investigation to support the analysis and document the authentication activities observed.
 
-| Evidence | Description |
-|---|---|
-| 01 | Windows Security Log |
-| 02 | Event ID 4624 Filter |
-| 03 | Successful Authentication Event |
-| 04 | Event ID 4625 Filter |
-| 05 | Failed Authentication Event |
+### Evidence 1: Windows Security Log
+
+![Windows Security Log](evidence/01-security-log.png)
+
+### Evidence 2: Event ID 4624 Filter
+
+![Event ID 4624 Filter](evidence/02-4624-Filter.png)
+
+### Evidence 3: Successful Authentication Event
+
+![Successful Authentication Event](evidence/03-4624-Successful-Logon.png)
+
+### Evidence 4: Event ID 4625 Filter
+
+![Event ID 4625 Filter](evidence/04-4625-Filter.png)
+
+### Evidence 5: Failed Authentication Event
+
+![Failed Authentication Event](evidence/05-4625-Failed-Logon.png)
 
 ## 8. Investigation Conclusion
 
