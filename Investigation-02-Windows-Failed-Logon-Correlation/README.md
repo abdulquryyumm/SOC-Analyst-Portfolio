@@ -143,7 +143,6 @@ The purpose of the rule was to identify repeated Windows failed logon attempts i
   <description>Multiple Windows failed logons for the same account within 60 seconds</description>
   <group>windows,authentication_failed,brute_force,</group>
 </rule>
-...
 
 ## Detection Results and Findings
 
@@ -157,7 +156,7 @@ The following results were observed:
 4. The custom rule `100002` successfully correlated the events using the target username.
 5. Wazuh generated a custom alert with severity level `10` after the fifth matching event.
 
-**### Detection Summary**
+### Detection Summary
 
 | Parameter | Observed Result |
 |---|---|
@@ -247,6 +246,16 @@ This practical provided hands-on experience in the following areas:
 - **Rule Validation:** Testing Wazuh configuration and confirming that custom detection logic works as expected.
 - **PowerShell and Docker:** Managing the laboratory environment and interacting with Wazuh containers.
 - **Security Investigation:** Analysing alert evidence and distinguishing controlled simulations from confirmed security incidents.
+
+## Disclaimer
+
+This project was conducted strictly for educational purposes within a controlled laboratory environment.
+
+All failed login attempts were deliberately generated against a locally created test account on a system under my control.
+
+The investigation did not involve unauthorised access to any third-party system or account.
+
+The techniques and detection rules demonstrated are intended to support cybersecurity learning, security monitoring and defensive security practices.
 
 
 
