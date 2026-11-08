@@ -219,5 +219,32 @@ Shows the timestamps of the five individual failed logon events used to confirm 
 
 ![Failed Logon Correlation](evidence/07-Failed-Logon-Correlation.png)
 
+## Investigation Conclusion
+
+The investigation successfully demonstrated how Wazuh SIEM can be used to monitor Windows authentication failures and detect repeated failed logon attempts through custom event correlation.
+
+During the practical, Windows Security Event ID 4625 records were generated through controlled login attempts and successfully detected by Wazuh using its built-in authentication failure rule.
+
+A custom frequency-based detection rule was developed and tested. The rule successfully generated a level 10 alert after five failed logon attempts against the same target account occurred within 60 seconds.
+
+This practical strengthened my understanding of Windows security event analysis, SIEM alert monitoring, custom detection engineering and event correlation.
+
+It also demonstrated how security analysts can extend existing SIEM detection capabilities to identify potentially suspicious authentication patterns.
+
+The activity was a controlled laboratory simulation and should not be interpreted as evidence of an actual security breach.
+## Skills Demonstrated
+
+This practical provided hands-on experience in the following areas:
+
+- **Windows Security Event Analysis:** Investigating Windows Security Event ID 4625 and interpreting authentication failure details.
+- **SIEM Monitoring:** Using Wazuh to monitor, search and investigate security alerts.
+- **Log Analysis:** Examining authentication events, timestamps, usernames, logon types and failure codes.
+- **Detection Engineering:** Developing and configuring custom Wazuh detection rules using XML.
+- **Event Correlation:** Applying frequency-based correlation to identify repeated failed logon attempts.
+- **Rule Validation:** Testing Wazuh configuration and confirming that custom detection logic works as expected.
+- **PowerShell and Docker:** Managing the laboratory environment and interacting with Wazuh containers.
+- **Security Investigation:** Analysing alert evidence and distinguishing controlled simulations from confirmed security incidents.
+
+
 
 
