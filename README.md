@@ -28,6 +28,15 @@ My goal is to develop the practical skills required to investigate security even
 
 [Read Investigation 01](./Investigation-01-Accounnt-Compromise/README.md)
 
+**Investigation 02: Windows Failed Logon Correlation and Custom Brute-Force Detection Using Wazuh**
+
+- **Type:** Windows authentication monitoring and detection engineering
+- **Detection:** Five failed logon attempts against the same account within 60 seconds
+- **Key skills:** Windows Event Log analysis, Wazuh SIEM, custom detection rules, event correlation, XML configuration, and security alert investigation
+- **Environment:** Windows 11 Pro, Wazuh SIEM 4.14.9, Docker
+
+[Read Investigation 02](Investigation-02-Windows-Failed-Logon-Correlation/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
