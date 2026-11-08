@@ -143,6 +143,7 @@ The purpose of the rule was to identify repeated Windows failed logon attempts i
   <description>Multiple Windows failed logons for the same account within 60 seconds</description>
   <group>windows,authentication_failed,brute_force,</group>
 </rule>
+...
 
 ## Detection Results and Findings
 
