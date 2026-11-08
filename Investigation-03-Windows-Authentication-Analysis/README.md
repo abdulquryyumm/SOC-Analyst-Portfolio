@@ -88,23 +88,23 @@ The following screenshots were collected during the investigation to support the
 
 ### Evidence 1: Windows Security Log
 
-![Windows Security Log](evidence/01-security-log.png)
+![Windows Security Log](evidence/01-security-log.png.png)
 
 ### Evidence 2: Event ID 4624 Filter
 
-![Event ID 4624 Filter](evidence/02-4624-Filter.png)
+![Event ID 4624 Filter](evidence/02-4624-Filter.png.png)
 
 ### Evidence 3: Successful Authentication Event
 
-![Successful Authentication Event](evidence/03-4624-Successful-Logon.png)
+![Successful Authentication Event](evidence/03-4624-Successful-Logon.png.png)
 
 ### Evidence 4: Event ID 4625 Filter
 
-![Event ID 4625 Filter](evidence/04-4625-Filter.png)
+![Event ID 4625 Filter](evidence/04-4625-Filter.png.png)
 
 ### Evidence 5: Failed Authentication Event
 
-![Failed Authentication Event](evidence/05-4625-Failed-Logon.png)
+![Failed Authentication Event](evidence/05-4625-Failed-Logon.png.png)
 
 ## 8. Investigation Conclusion
 
