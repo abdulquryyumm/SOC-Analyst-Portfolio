@@ -109,6 +109,9 @@ The account's permissions made it particularly sensitive because unauthorized us
 
 The reported potential blast radius included full SQL Server administrative access to two production databases.
 
+### Evidence 04: Service Account Privileges
+
+![Account Privileges](evidence/04-account-privileges.png.png)
 ## 4. Initial Alert Analysis
 
 The initial alert identified an unusual successful authentication event involving the SQL backup service account.
@@ -196,6 +199,10 @@ All timestamps are reported in UTC.
 | 03:04:07 | Scheduled task `SQLBackupMaint` created | Possible persistence activity |
 
 The sequence showed several security-relevant actions occurring within approximately two minutes of the initial authentication event.
+
+### Evidence 03: Post-Login Activities
+
+![Post-Login Activities](evidence/03-post-login-activities.png.png)
 
 ## 7. Post-Authentication Activity Analysis
 
@@ -353,6 +360,10 @@ falsepositives:
 
 level: high
 ```
+
+### Evidence 05: Detection Rule
+
+![Detection Rule](evidence/05-detection-rule.png.png)
 
 ### 9.3 Understanding the Detection Conditions
 
