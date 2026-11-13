@@ -68,6 +68,10 @@ The platform supplied Windows Security Event Log information, SIEM correlation d
 | Primary Event | Windows Security Event ID 4624 |
 | Logon Type | 2 — Interactive |
 
+### Evidence 01: Alert Overview
+
+![Alert Overview](evidence/01-alert-overview.png.png)
+
 ### 3.2 Normal Service Account Behaviour
 
 According to the 30-day baseline supplied by the AXIS alert, the service account normally performed automated SQL backup operations.
@@ -84,6 +88,10 @@ Its expected behaviour was:
 | Previous Interactive Logons | 0 within the previous 30 days |
 
 The observed interactive authentication therefore represented a deviation from the account's established behaviour.
+
+### Evidence 02: Service Account Baseline
+
+![Service Account Baseline](evidence/02-service-account-baseline.png.png)
 
 ### 3.3 Service Account Privileges
 
