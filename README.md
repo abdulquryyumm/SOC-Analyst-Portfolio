@@ -69,6 +69,14 @@ An investigation of unusual DNS activity involving random-looking subdomains, fr
 
 [View Investigation 05](./Investigation-05-Suspicious-DNS-Activity/README.md)
 
+### Wazuh Lab Investigation 001: Windows Failed and Successful Logon
+
+**Focus:** Wazuh SIEM | Windows Event IDs 4624 and 4625 | Authentication Event Correlation
+
+A retrospective investigation using Wazuh to analyse a failed Windows login followed by a successful login. The investigation examines authentication event correlation, incorrect-password indicators, process information, and user validation to determine whether the activity was consistent with legitimate user behaviour.
+
+[View Wazuh Lab Investigation 001](./Wazuh_Lab_Investigation_001_Windows_Failed_and_Successful_Logon.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
