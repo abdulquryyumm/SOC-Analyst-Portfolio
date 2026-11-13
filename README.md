@@ -45,6 +45,14 @@ A practical investigation using Windows Event Viewer to examine successful and f
 
 [View Investigation 03](./Investigation-03-Windows-Authentication-Analysis/README.md)
 
+## Additional Practical Projects
+
+### TCP Connection and Port-Probing Analysis
+
+A supplementary Wireshark practical conducted in a controlled Kali Linux laboratory. It covers TCP connection attempts, SYN and RST/ACK flags, connection failures, and port-scanning patterns.
+
+[View C-001: TCP Port Probing Investigation](https://github.com/abdulquryyumm/C-001-TCP-Port-Probing-Investigation)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
