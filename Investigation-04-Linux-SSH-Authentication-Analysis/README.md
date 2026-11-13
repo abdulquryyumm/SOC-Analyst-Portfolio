@@ -118,7 +118,7 @@ The investigation was supported by authentication, process and network activity 
 
 The authentication log provides evidence of the observed login activities, including repeated failed authentication attempts, a subsequent successful administrative login and unsuccessful root login attempts.
 
-![Linux Authentication Log](evidence/auth.log.png)
+![Linux Authentication Log](evidence/01-authentication-log.png)
 
 **Analysis:**
 
@@ -130,7 +130,7 @@ However, the available evidence alone does not establish whether the successful 
 
 The process evidence supports the examination of activities performed following the successful administrative login.
 
-![Linux Process Log](evidence/processlog.png)
+![Linux Process Log](evidence/02-process-log.png)
 
 **Analysis:**
 
@@ -142,7 +142,7 @@ When considered alongside the preceding failed login attempts, these activities 
 
 The network evidence provides additional context concerning the repeated connection activity involving SSH over TCP port `22`.
 
-![Linux Network Log](evidence/networklog.png)
+![Linux Network Log](evidence/03-network-log.png)
 
 **Analysis:**
 
