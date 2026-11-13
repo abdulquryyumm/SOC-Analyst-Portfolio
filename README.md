@@ -53,6 +53,14 @@ A supplementary Wireshark practical conducted in a controlled Kali Linux laborat
 
 [View C-001: TCP Port Probing Investigation](https://github.com/abdulquryyumm/C-001-TCP-Port-Probing-Investigation)
 
+### Investigation 04: Linux SSH Authentication and Privilege Activity Investigation
+
+**Focus:** Linux Authentication Logs | SSH Monitoring | Privilege Analysis
+
+An investigation of repeated failed SSH login attempts, successful administrative authentication, sudo activity, and suspicious privilege-related behaviour using Linux authentication, process, and network logs.
+
+[View Investigation 04](./Investigation-04-Linux-SSH-Authentication-Analysis/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
