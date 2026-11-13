@@ -85,6 +85,14 @@ A practical Windows SOC laboratory covering Sysmon telemetry, suspicious PowerSh
 
 [View Windows SOC Endpoint Monitoring Lab](https://github.com/abdulquryyumm/windows-soc-endpoint-monitoring-lab)
 
+### Investigation 06: Malicious HTTP Activity Investigation
+
+**Focus:** Network Forensics | Wireshark | HTTP Traffic Analysis | Payload Examination
+
+An investigation of suspicious HTTP communication involving an outbound information-transfer request followed by executable-like file retrieval. The practical uses Wireshark and Kali Linux to examine HTTP requests, responses, and recovered payload data.
+
+[View Investigation 06](./Investigation-06-Malicious-HTTP-Activity/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
