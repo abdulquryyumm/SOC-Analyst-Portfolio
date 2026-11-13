@@ -77,6 +77,14 @@ A retrospective investigation using Wazuh to analyse a failed Windows login foll
 
 [View Wazuh Lab Investigation 001](./Wazuh_Lab_Investigation_001_Windows_Failed_and_Successful_Logon.md)
 
+### Windows SOC Endpoint Monitoring Lab
+
+**Focus:** Sysmon | Windows Endpoint Monitoring | PowerShell Investigation | Process Analysis
+
+A practical Windows SOC laboratory covering Sysmon telemetry, suspicious PowerShell activity, parent-child process analysis, command-line investigation, and evidence-based false-positive classification.
+
+[View Windows SOC Endpoint Monitoring Lab](https://github.com/abdulquryyumm/windows-soc-endpoint-monitoring-lab)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
