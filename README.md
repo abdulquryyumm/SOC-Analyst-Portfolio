@@ -61,6 +61,14 @@ An investigation of repeated failed SSH login attempts, successful administrativ
 
 [View Investigation 04](./Investigation-04-Linux-SSH-Authentication-Analysis/README.md)
 
+### Investigation 05: Suspicious DNS Activity Investigation
+
+**Focus:** DNS Traffic Analysis | Wireshark | Suspicious DNS Query Detection
+
+An investigation of unusual DNS activity involving random-looking subdomains, frequent DNS queries, and repeated resolution to the same destination IP address. The analysis uses Wireshark PCAP evidence to identify potentially suspicious automated DNS communication and assess its security implications.
+
+[View Investigation 05](./Investigation-05-Suspicious-DNS-Activity/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
