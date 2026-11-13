@@ -101,6 +101,18 @@ An investigation of executable-like file retrieval followed by installation-stat
 
 [View Investigation 07](./Investigation-07-HTTP-Download-Post-Download-Communication/README.md)
 
+## AXIS SOC Case Studies
+
+Simulated SOC alert investigations conducted using the AXIS Security SOC Lab. These case studies demonstrate practical alert triage, Windows security event analysis, threat investigation, MITRE ATT&CK mapping, and evidence-based incident classification.
+
+### Case Study 02: Service Account Used for Interactive Logon
+
+**Severity:** High | **Investigation Type:** Windows Authentication, Service Account Misuse and Potential Lateral Movement
+
+Investigated suspicious interactive authentication involving a privileged SQL backup service account, followed by account discovery, attempted Domain Controller access, and scheduled task creation. Examined Windows Event ID 4624, logon types, service-account behaviour, privilege enumeration, and potential persistence.
+
+[View AXIS Case Study 02](./AXIS-Case-Studies/Case-Study-02-Service-Account-Interactive-Logon/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
