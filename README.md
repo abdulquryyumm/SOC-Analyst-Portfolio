@@ -93,6 +93,14 @@ An investigation of suspicious HTTP communication involving an outbound informat
 
 [View Investigation 06](./Investigation-06-Malicious-HTTP-Activity/README.md)
 
+### Investigation 07: HTTP Download and Post-Download Communication Investigation
+
+**Focus:** Network Forensics | HTTP Download Analysis | Payload Examination | Network Monitoring
+
+An investigation of executable-like file retrieval followed by installation-status and heartbeat-style HTTP communications. The analysis examines HTTP requests, response metadata, downloaded object characteristics, and subsequent check-in activity using Wireshark and Kali Linux.
+
+[View Investigation 07](./Investigation-07-HTTP-Download-Post-Download-Communication/README.md)
+
 Additional investigation case studies and practical projects will be added as my portfolio develops.
 
 ## Lab Environment
